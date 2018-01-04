@@ -17,8 +17,17 @@ __Find remote os information__
 
 	# nmap -O -sV <ip>
 
+Git
+---
+__Delete tag locally and remote__
+
+	# git tag -n #list tags
+      git push --delete origin tagName
+      git tag -d tagName
 
 Sources
 ---
 
 	<https://linuxconfig.org/how-to-determine-os-of-the-remote-host>
+	<https://gist.github.com/mobilemind/7883996>
+
